@@ -1,6 +1,7 @@
 # 👋 Hi there, I'm Shivam!  
 
-[![Portfolio](https://img.shields.io/badge/Visit-My%20Portfolio-blue?style=for-the-badge&logo=firefox-browser)]([https://your-portfolio-link.com](https://shivam-gupta-portfolio-eight.vercel.app/))
+[![Portfolio](https://img.shields.io/badge/Visit-My%20Portfolio-blue?style=for-the-badge&logo=firefox-browser)](https://shivam-gupta-portfolio-eight.vercel.app/)
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
