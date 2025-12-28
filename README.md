@@ -13,7 +13,7 @@
 - 🌐 Passionate about Web Development, 3D Animation, and Open Source.
 - 🚀 Always ready to take on a new challenge!
 
-## 🚀 My Skills
+
 
 ## 🚀 Skills
 
