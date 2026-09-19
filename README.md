@@ -26,11 +26,11 @@ I enjoy building backend systems, working with APIs and distributed infrastructu
 ┌─────────────────────────────────────────────┐
 │  Shivam Gupta                               │
 │                                             │
-│  🎓 B.Tech CSE @ NIT Patna                 │
-│  💻 Software Engineer @ Deskala             │
-│  ⚙️ Backend & Systems                      │
-│  🌐 Open Source                            │
-│  🐧 Linux                                  │
+│  🎓 B.Tech CSE @ NIT Patna                   │
+│  💻 Software Engineer @ Deskala              │
+│  💻 Backend & Systems                        |
+│  🌐 Open Source                              │
+│  🐧 Linux                                    │
 └─────────────────────────────────────────────┘
 ```
 
