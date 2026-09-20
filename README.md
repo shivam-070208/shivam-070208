@@ -18,72 +18,104 @@
 
 ## `> whoami`
 
-I'm **Shivam Gupta**, a Computer Science Engineering student at **NIT Patna** and a **Software Engineer at Deskala**.
+I'm **Shivam Gupta** `(Software Engineer)`.
 
-I enjoy building backend systems, working with APIs and distributed infrastructure, exploring Linux, and contributing to open source.
+I work mainly around **backend systems, API integrations, event-driven architecture, distributed infrastructure, Linux, and open-source software**.
 
 ```text
-┌─────────────────────────────────────────────┐
-│  Shivam Gupta                               │
-│                                             │
-│  🎓 B.Tech CSE @ NIT Patna                   │
-│  💻 Software Engineer @ Deskala              │
-│  💻 Backend & Systems                        |
-│  🌐 Open Source                              │
-│  🐧 Linux                                    │
-└─────────────────────────────────────────────┘
+🎓 B.Tech CSE @ NIT Patna
+💻 Software Engineer @ Deskala
+⚙️ Backend & Distributed Systems
+🌐 Open Source Contributor
+🐧 Linux / Systems
 ```
 
 ---
 
 ## 🟢 `experience`
-
 ### Software Engineer — Deskala
 
-Currently working primarily on **Skalebot**, contributing to backend systems and integrations.
+Working primarily on **Skalebot**, contributing to a **microservice-based backend architecture** and owning backend services, integrations, and event-driven workflows.
 
-**Working with:**
+**Core stack:**
 
-`Node.js` · `N8N` · `NestJS` · `MySQL` · `Redis` · `RabbitMQ` · `REST APIs` · `Webhooks`
+`Node.js` · `NestJS` · `MySQL` · `Redis` · `RabbitMQ` · `n8n` · `REST APIs` · `Webhooks`
 
-**Integrations:**
+### What I work on
 
-`WhatsApp Business API` · `Instagram Messaging API` · `Meta Graph API` · `Client Integrations`
+* Develop and maintain **backend microservices** and their service-to-service communication
+* Take ownership of backend services from **API design → implementation → integration → debugging**
+* Build **event-driven workflows** using RabbitMQ, webhooks, and asynchronous processing
+* Design and integrate third-party APIs across different business workflows
+* Own and maintain **Shopify integration**, including webhook-driven commerce events and backend processing
+* Build **email automation workflows** for transactional and event-driven communication
+* Work with **WhatsApp Business API**, **Instagram Messaging API**, and **Meta Graph API**
+* Implement database-backed workflows using **MySQL**
+* Use **Redis** for caching, temporary state, and high-frequency backend operations
+* Debug distributed failures across services, queues, databases, webhooks, and external APIs
+* Handle authentication, API validation, rate limits, retries, and third-party API inconsistencies
+* Work with **n8n** for workflow automation and service integrations
+
+**Outcome:** Took ownership of backend services and key integrations, building and maintaining production workflows across **microservices, APIs, webhooks, queues, databases, Shopify, messaging platforms, and email automation**.
 
 ---
 
-## 🧩 `open-source`
+# 🧩 `open-source`
 
-### 🔍 ai-slop-linter
+## 🔍 ai-slop-linter
 
-**Research & Language Support**
+### Research & Language Analysis
 
-Contributed research and implementation work for expanding the linter's language support.
+Worked on expanding language support through a **research-driven analysis process**.
 
-- Researched the repository's rule engine and language architecture
-- Investigated how language-specific vocabulary and rules are structured
-- Researched suitable vocabulary and linguistic sources
-- Studied how the additional language could integrate with the existing detection pipeline
-- Worked on supporting configuration and test requirements
-- Contributed documentation around the research and implementation approach
+Instead of relying on a single approach, explored **17 different approaches** around the same research question.
+
+**Analysis included:**
+
+`N-gram Analysis` · `Frequency Analysis` · `Vocabulary Analysis` · `Phrase Analysis` · `Context-Based Analysis` · `Linguistic Analysis` · `Semantic Analysis` · `Pattern Analysis`
+
+Also investigated:
+
+* Existing rule-engine architecture
+* Language-specific detection mechanisms
+* Candidate pattern generation
+* False-positive analysis
+* Validation and testing strategies
+* Integration of language-specific rules
 
 ```text
-Research → Repository Analysis → Language Rules → Validation → Documentation
+Research Question
+      ↓
+17 Analytical Approaches
+      ↓
+Pattern / Vocabulary Analysis
+      ↓
+Context & Linguistic Analysis
+      ↓
+Validation
+      ↓
+Rule Integration
+      ↓
+Tests + Documentation
 ```
 
-### 📊 surviving-lines
+**Outcome:** Developed a structured methodology for language-specific detection research and worked toward **Hindi language support**.
 
-**Added Markdown Output Support**
+---
 
-Extended the CLI with Markdown output support.
+## 📊 surviving-lines
 
-- Added `--markdown` output support
-- Implemented Markdown table generation
-- Added automated tests for the new output format
-- Updated README documentation with Markdown usage
-- Added validation to prevent conflicting output-format flags
-- Preserved/restored `--version` functionality required by the release workflow
-- Tested the changes locally across the CLI output paths
+### Markdown CLI Output
+
+Extended the CLI with a new `--markdown` output format.
+
+* Added Markdown table generation
+* Added automated tests
+* Added output-format validation
+* Preserved `--json` and `--csv`
+* Restored `--version` support for the release workflow
+* Updated CLI documentation
+* Rebased and tested against upstream changes
 
 ```text
 CLI
@@ -92,91 +124,104 @@ CLI
  └── --markdown   ← added
 ```
 
-### 🛠️ workproof
+**Outcome:** Contribution merged upstream with Markdown output and corresponding test/documentation coverage.
 
-**Expanded Multi-Forge Bot Detection**
-
-Extended WorkProof's bot-detection system to support more Git hosting platforms and improve bot identification.
-
-- Expanded bot detection beyond GitHub-specific identities
-- Added support for GitLab and Gitea bot identities
-- Added shared bot-detection logic in `src/figures/bot.ts`
-- Added recognition for GitHub `[bot]` noreply identities
-- Added recognition for Dependabot and Renovate
-- Added recognition for GitLab Renovate Bot
-- Added recognition for GiteaBot
-- Added email-based bot detection for known bot addresses
-- Added focused tests for supported bot identities
-- Added negative tests to prevent overly broad `[bot]` matching
-- Restricted GitHub `[bot]` detection to valid GitHub noreply domains
-- Updated documentation around supported forges and bot detection
-
-```text
-                 Bot Detection
-                      │
-        ┌─────────────┼─────────────┐
-        ▼             ▼             ▼
-      GitHub        GitLab        Gitea
-        │             │             │
-     [bot]         Renovate      GiteaBot
-     Dependabot       Bot
-     Renovate
-```
 ---
 
-## ⚡ `tech-stack`
+## 🛠️ WorkProof
+
+### Multi-Forge Bot Detection
+
+Expanded automated contributor detection across multiple Git hosting platforms.
+
+**Worked on:**
+
+* GitHub `[bot]` identities
+* Dependabot
+* Renovate
+* GitLab Renovate Bot
+* GiteaBot
+* Email-based bot detection
+* GitHub noreply-domain validation
+* Positive and negative test coverage
+
+```text
+GitHub ──┐
+GitLab  ─┼──→ Bot Detection → Validation → Tests
+Gitea   ─┘
+```
+
+**Outcome:** Extended bot detection across **GitHub, GitLab, and Gitea** while adding safeguards against overly broad matching.
+
+---
+
+# ⚡ `tech-stack`
 
 ### Languages
 
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00ff41)
-![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=00ff41)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00ff41)
-![SQL](https://img.shields.io/badge/SQL-000000?style=flat-square&logo=postgresql&logoColor=00ff41)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square\&logo=javascript\&logoColor=00ff41)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square\&logo=typescript\&logoColor=00ff41)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square\&logo=python\&logoColor=00ff41)
+![SQL](https://img.shields.io/badge/SQL-000000?style=flat-square\&logo=postgresql\&logoColor=00ff41)
 
 ### Backend & Infrastructure
 
-![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=00ff41)
-![NestJS](https://img.shields.io/badge/NestJS-000000?style=flat-square&logo=nestjs&logoColor=00ff41)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=00ff41)
-![Redis](https://img.shields.io/badge/Redis-000000?style=flat-square&logo=redis&logoColor=00ff41)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-000000?style=flat-square&logo=rabbitmq&logoColor=00ff41)
-![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square\&logo=node.js\&logoColor=00ff41)
+![NestJS](https://img.shields.io/badge/NestJS-000000?style=flat-square\&logo=nestjs\&logoColor=00ff41)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square\&logo=postgresql\&logoColor=00ff41)
+![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square\&logo=mysql\&logoColor=00ff41)
+![Redis](https://img.shields.io/badge/Redis-000000?style=flat-square\&logo=redis\&logoColor=00ff41)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-000000?style=flat-square\&logo=rabbitmq\&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square\&logo=docker\&logoColor=00ff41)
 
 ### Frontend
 
-![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=00ff41)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=00ff41)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-000000?style=flat-square&logo=tailwindcss&logoColor=00ff41)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=00ff41)
+![React](https://img.shields.io/badge/React-000000?style=flat-square\&logo=react\&logoColor=00ff41)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=next.js\&logoColor=00ff41)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-000000?style=flat-square\&logo=tailwindcss\&logoColor=00ff41)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square\&logo=threedotjs\&logoColor=00ff41)
+
+### Engineering
+
+`REST APIs` · `Webhooks` · `Graph APIs` · `Git` · `GitHub` · `Testing` · `Distributed Systems` · `Event-Driven Architecture`
 
 ---
 
-## 🐧 `environment`
+# 🐧 `environment`
 
 ```text
-OS          → Arch Linux
-Shell       → Bash / Zsh
-Editor      → VS Code / Neovim
-Workflow    → Git + Linux
-Status      → Building...
+OS       → Arch Linux
+Shell    → Bash / Zsh
+Editor   → VS Code / Neovim
+Workflow → Git + Linux
+Focus    → Backend / Systems / Open Source
+Status   → Building...
 ```
+
 ---
 
-## 🔗 `connect`
+# 🔗 `connect`
 
 <p align="center">
-  <a href="https://bitsketcher.dev/">
-    <img src="https://img.shields.io/badge/Portfolio-00ff41?style=for-the-badge&logo=firefox&logoColor=000000&labelColor=000000" />
-  </a>
-  <a href="https://github.com/shivam-070208">
-    <img src="https://img.shields.io/badge/GitHub-00ff41?style=for-the-badge&logo=github&logoColor=000000&labelColor=000000" />
-  </a>
+
+<a href="https://bitsketcher.dev/">
+<img src="https://img.shields.io/badge/Portfolio-00ff41?style=for-the-badge&logo=firefox&logoColor=000000&labelColor=000000" />
+</a>
+
+<a href="https://github.com/shivam-070208">
+<img src="https://img.shields.io/badge/GitHub-00ff41?style=for-the-badge&logo=github&logoColor=000000&labelColor=000000" />
+</a>
+
 </p>
 
 <p align="center">
-  <b>⚡ BUILD • DEBUG • LEARN • CONTRIBUTE ⚡</b>
+<b>⚡ BUILD • DEBUG • LEARN • CONTRIBUTE ⚡</b>
 </p>
 
 <p align="center">
+<img src="https://komarev.com/ghpvc/?username=shivam-070208&style=flat-square&color=00ff41&label=PROFILE+SCANS" />
+</p>
+
+
   <img src="https://komarev.com/ghpvc/?username=shivam-070208&style=flat-square&color=00ff41&label=PROFILE+SCANS" />
 </p>
